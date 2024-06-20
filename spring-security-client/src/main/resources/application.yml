@@ -43,3 +43,11 @@ spring:
         provider:
           spring:
             issuer-uri: "http://localhost:9000"
+
+external:
+  api:
+    go:
+      base-url: https://gorest.co.in/public/v2
+      posts-endpoint: /posts
+      users-endpoint: /users
+      comments-endpoint: /comments
